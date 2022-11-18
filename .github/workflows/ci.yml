@@ -7,15 +7,3 @@ jobs:
   ci:
     permissions: read-all
     uses: mxenabled/path-tools/.github/workflows/ci.yml@master
-        # [
-        #   "build",
-        #   "chore",
-        #   "docs",
-        #   "feat",
-        #   "fix",
-        #   "perf",
-        #   "refactor",
-        #   "revert",
-        #   "style",
-        #   "test"
-        # ]
