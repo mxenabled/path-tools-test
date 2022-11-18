@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0](https://github.com/mxenabled/path-tools-test/compare/v1.0.0...v1.1.0) (2022-11-18)
+
+
+### Features
+
+* add dry-run input ([d78af9f](https://github.com/mxenabled/path-tools-test/commit/d78af9f97da6e1b521317d847a85fcd2693100bf))
+* add force input ([799afb9](https://github.com/mxenabled/path-tools-test/commit/799afb9525321f2857d202adf0f2a3bba8b8050d))
+* pass ossrh  secrets ([08315a7](https://github.com/mxenabled/path-tools-test/commit/08315a72a33c2a834851c1cb4e409b1f806c7913))
+
+
+### Bug Fixes
+
+* remove unneeded comment ([86a7f52](https://github.com/mxenabled/path-tools-test/commit/86a7f5275efbcfd5af25ba8f503ac7e2a1fb5975))
+
 ## 1.0.0 (2022-11-18)
 
 
