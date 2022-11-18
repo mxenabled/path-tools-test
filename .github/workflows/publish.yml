@@ -6,6 +6,4 @@ name: publish
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: mxenabled/path-tools/.github/workflows/publish.yml@master
+    uses: mxenabled/path-tools/.github/workflows/publish.yml@master

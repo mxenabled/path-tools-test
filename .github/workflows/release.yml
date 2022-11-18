@@ -8,6 +8,4 @@ name: release
 
 jobs:
   release:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: mxenabled/path-tools/.github/workflows/release.yml@master
+    uses: mxenabled/path-tools/.github/workflows/release.yml@master

@@ -8,9 +8,7 @@ permissions:
 
 jobs:
   ci:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: mxenabled/path-tools/.github/workflows/ci.yml@master
+    uses: mxenabled/path-tools/.github/workflows/ci.yml@master
         # [
         #   "build",
         #   "chore",
