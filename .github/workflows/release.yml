@@ -12,3 +12,8 @@ jobs:
     uses: mxenabled/path-tools/.github/workflows/release.yml@master
     with:
       dry-run: true
+    secrets:
+      OSSRH_USERNAME: bob
+      OSSRH_TOKEN: asdf
+      GPG_SIGNING_KEY_BASE64: afefdf
+      GPG_SIGNING_PASSPHRASE: h24o9fhuh
