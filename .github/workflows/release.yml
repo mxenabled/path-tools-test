@@ -6,6 +6,9 @@ on:
 
 name: release
 
+permissions:
+  contents: read
+
 jobs:
   release:
     uses: mxenabled/path-tools/.github/workflows/release.yml@master
