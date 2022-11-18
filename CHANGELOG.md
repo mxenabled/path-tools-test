@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.0 (2022-11-18)
+
+
+### Features
+
+* initial commit ([05bba60](https://github.com/mxenabled/path-tools-test/commit/05bba605307af006b0b3b0ff3a3bc24d35cc40f3))
+
+
+### Bug Fixes
+
+* set permissions ([b10b46e](https://github.com/mxenabled/path-tools-test/commit/b10b46ef84991392256b3ba2aac8df53951bd62a))
+
 ## [1.1.5](https://github.com/mxenabled/path-tools/compare/v1.1.4...v1.1.5) (2022-11-17)
 
 
