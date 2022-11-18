@@ -1,5 +1,11 @@
 on:
   workflow_dispatch:
+    inputs:
+      dry-run:
+        default: true
+        description: Dry-Run
+        required: false
+        type: boolean
 
 name: publish
 
@@ -8,4 +14,4 @@ jobs:
     permissions: read-all
     uses: mxenabled/path-tools/.github/workflows/publish.yml@master
     with:
-      dry-run: true
+      dry-run: ${{ inputs.dry-run }}
