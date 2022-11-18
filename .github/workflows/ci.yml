@@ -1,5 +1,12 @@
 on:
   push:
+  workflow_dispatch:
+    inputs:
+      force:
+        default: false
+        description: Force all steps (ignore changes)
+        required: false
+        type: boolean
 
 name: ci
 
@@ -7,3 +14,5 @@ jobs:
   ci:
     permissions: read-all
     uses: mxenabled/path-tools/.github/workflows/ci.yml@master
+    with:
+      force: ${{ inputs.force != '' && inputs.force }}
