@@ -1,0 +1,25 @@
+on:
+  push:
+
+name: ci
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: mxenabled/path-tools/.github/workflows/ci.yml@master
+        # [
+        #   "build",
+        #   "chore",
+        #   "docs",
+        #   "feat",
+        #   "fix",
+        #   "perf",
+        #   "refactor",
+        #   "revert",
+        #   "style",
+        #   "test"
+        # ]
