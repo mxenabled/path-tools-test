@@ -10,3 +10,5 @@ jobs:
   release:
     permissions: write-all
     uses: mxenabled/path-tools/.github/workflows/release.yml@master
+    with:
+      dry-run: true

@@ -7,3 +7,5 @@ jobs:
   publish:
     permissions: read-all
     uses: mxenabled/path-tools/.github/workflows/publish.yml@master
+    with:
+      dry-run: true
