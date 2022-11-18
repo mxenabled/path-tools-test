@@ -1,9 +1,9 @@
 on:
   workflow_dispatch:
-  workflow_call:
 
 name: publish
 
 jobs:
   publish:
+    permissions: read-all
     uses: mxenabled/path-tools/.github/workflows/publish.yml@master
