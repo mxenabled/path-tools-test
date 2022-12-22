@@ -2,7 +2,7 @@
   "release-type": "simple",
   "packages": {
     ".": {
-      "prerelease": false,
+      "prerelease": false
     }
   }
 }
