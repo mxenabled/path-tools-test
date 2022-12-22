@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.1](https://github.com/mxenabled/path-tools-test/compare/v1.1.0...v1.1.1) (2022-12-22)
+
+
+### Bug Fixes
+
+* correct manifest file ([948b5cb](https://github.com/mxenabled/path-tools-test/commit/948b5cb4d455db3b97c83bd0096f157ded4b56bc))
+* correct manifest file ([33355d6](https://github.com/mxenabled/path-tools-test/commit/33355d603977941a93af67fcd1dab62afa71b11a))
+* try manifest release ([afc95a1](https://github.com/mxenabled/path-tools-test/commit/afc95a1167c570ee49587ea1193c0ea7e9c3ee34))
+
 ## [1.1.0](https://github.com/mxenabled/path-tools-test/compare/v1.0.0...v1.1.0) (2022-11-18)
 
 
