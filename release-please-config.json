@@ -1,8 +1,8 @@
 {
+  "release-type": "simple",
   "packages": {
-    "prerelease": false,
-    "release-type": "simple",
     ".": {
+      "prerelease": false,
     }
   }
 }
