@@ -1,19 +1,60 @@
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - master
+  workflow_call:
+    inputs:
+      dry-run:
+        default: false
+        description: Only publish locally
+        required: false
+        type: boolean
+    secrets:
+      OSSRH_USERNAME:
+        required: true
+      OSSRH_TOKEN:
+        required: true
+      GPG_SIGNING_KEY_BASE64:
+        required: true
+      GPG_SIGNING_PASSPHRASE:
+        required: true
 
 name: release
 
 jobs:
+  # ---------------------------------------------------------------
+  # job: release
+  #
+  # Run release-please and publish the release if release-please
+  # creates a release.
+  #
+  # * Creates and maintains "release PR"
+  # * Creates release when the "release PR" is merged to "master"
+  # * Publishes release if release-please creates a release
+  #
+  # See: https://github.com/google-github-actions/release-please-action
+  # See: https://github.com/googleapis/release-please
+  #
   release:
-    permissions: write-all
-    uses: mxenabled/path-tools/.github/workflows/release_manifest.yml@master
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo ${{ github.repository }}
+      - uses: actions/checkout@v3
+      - uses: google-github-actions/release-please-action@v3.5.0
+        id: release
+        with:
+          command: manifest
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
+      tag_name: ${{ steps.release.outputs.tag_name }}
+
+  publish:
+    needs: [ release ]
+    # runs-on: ubuntu-latest
+    if: ${{ needs.release.outputs.release_created }}
+    uses: mxenabled/path-tools/.github/workflows/publish.yml@master
     with:
       dry-run: true
     secrets:
-      OSSRH_USERNAME: bob
-      OSSRH_TOKEN: asdf
-      GPG_SIGNING_KEY_BASE64: afefdf
-      GPG_SIGNING_PASSPHRASE: h24o9fhuh
+      OSSRH_USERNAME: not_published
+      OSSRH_TOKEN: not_published
+      GPG_SIGNING_KEY_BASE64: not_published
+      GPG_SIGNING_PASSPHRASE: not_published
