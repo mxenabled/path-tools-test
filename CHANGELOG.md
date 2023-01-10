@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.2](https://github.com/mxenabled/path-tools-test/compare/v1.1.1...v1.1.2) (2023-01-10)
+
+
+### Bug Fixes
+
+* refactor manifest ([678faf5](https://github.com/mxenabled/path-tools-test/commit/678faf57ec96b466bf3878de7e9e327ad6ad4ac8))
+
+
+### Miscellaneous Chores
+
+* release 1.1.2 ([aa95717](https://github.com/mxenabled/path-tools-test/commit/aa95717b891a6be90014c96a85a63f06dcaa97df))
+
 ## [1.1.1](https://github.com/mxenabled/path-tools-test/compare/v1.1.0...v1.1.1) (2022-12-22)
 
 
