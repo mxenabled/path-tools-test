@@ -15,3 +15,14 @@ _In build.gradle_
 implementation "com.github.mxenabled:path-pipeline-test:1.1.2"
 ```
 <!-- x-release-please-end -->
+
+## Releasing snapshot
+
+1. Create a chore commit on the branch to be released (currently, only configured to work on master).
+
+_Example:_
+
+`git commit --allow-empty -m "chore: release 1.1.2-SNAPSHOT" -m "Release-As: 1.1.2-SNAPSHOT"`
+
+2. Push branch
+3. Merge release PR
