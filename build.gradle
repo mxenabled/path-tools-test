@@ -15,7 +15,7 @@ plugins {
 
 group "com.github.mxenabled"
 jar.archiveBaseName = "path-tools-test"
-version "1.1.0" // x-release-please-version
+version "1.1.2-SNAPSHOT" // x-release-please-version
 
 repositories {
   mavenCentral()
