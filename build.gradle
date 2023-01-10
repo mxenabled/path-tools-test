@@ -9,9 +9,8 @@ plugins {
   id "java-library"
   id "maven-publish"
   id "groovy"
-  id "com.github.mxenabled.vogue" version "1.0.1"
-  id "com.github.mxenabled.coppuccino" version "3.1.3"
-  id "com.github.mxenabled.hush" version "2.3.1"
+  id "com.github.mxenabled.vogue" version "1.0.2"
+  id "com.github.mxenabled.coppuccino" version "3.2.1"
 }
 
 group "com.github.mxenabled"
