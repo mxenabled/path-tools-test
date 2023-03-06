@@ -10,7 +10,7 @@ plugins {
   id "maven-publish"
   id "groovy"
   id "com.github.mxenabled.vogue" version "1.0.2"
-  id "com.github.mxenabled.coppuccino" version "3.2.1"
+  id "com.github.mxenabled.coppuccino" version "3.2.3"
 }
 
 group "com.github.mxenabled"
