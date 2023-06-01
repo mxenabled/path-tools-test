@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/mxenabled/path-tools-test/compare/1.1.3...1.1.4) (2023-06-01)
+
+
+### Bug Fixes
+
+* semantic-release github release ([ba1d1f0](https://github.com/mxenabled/path-tools-test/commit/ba1d1f0ecc78900aa87b3f3ad11380a1ab1e3e7a))
+
 ## [1.1.3](https://github.com/mxenabled/path-tools-test/compare/v1.1.2...1.1.3) (2023-06-01)
 
 
