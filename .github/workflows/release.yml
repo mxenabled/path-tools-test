@@ -44,7 +44,13 @@ jobs:
           node-version: "lts/*"
       - name: Install dependencies
         run: npm install -g commitlint@latest @commitlint/config-conventional semantic-release @semantic-release/git @semantic-release/gitlab @semantic-release/commit-analyzer @semantic-release/release-notes-generator @google/semantic-release-replace-plugin @semantic-release/changelog conventional-changelog-conventionalcommits
-      - name: Release
+      - if: ${{ inputs.dry-run }}
+        name: Release (dry-run)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release --dryRun
+      - if: ${{ !inputs.dry-run }}
+        name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
