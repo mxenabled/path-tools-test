@@ -1,3 +1,16 @@
+## [1.2.0](https://github.com/mxenabled/path-tools-test/compare/1.1.10...1.2.0) (2023-06-01)
+
+
+### Features
+
+* release candidtating this ([eb1656a](https://github.com/mxenabled/path-tools-test/commit/eb1656af776efdfe62dc2ac812dacd5d3efdf55c))
+
+
+### Bug Fixes
+
+* switch to path-tools recipes ([b72dd78](https://github.com/mxenabled/path-tools-test/commit/b72dd786380cf1193f83353e7a0cdd50edfbddf2))
+* switch to path-tools recipes ([396d673](https://github.com/mxenabled/path-tools-test/commit/396d673616663b6dfad4276666c3086d1ff1e734))
+
 ## [1.2.0-rc.2](https://github.com/mxenabled/path-tools-test/compare/1.2.0-rc.1...1.2.0-rc.2) (2023-06-01)
 
 
