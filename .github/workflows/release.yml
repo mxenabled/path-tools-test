@@ -39,6 +39,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Semantic Release
+        id: release
         uses: cycjimmy/semantic-release-action@v3
         with:
           dry_run: ${{ inputs.dry-run }}
@@ -50,19 +51,19 @@ jobs:
             conventional-changelog-conventionalcommits
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # - name: Setup Node.js
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: "lts/*"
-      # - name: Install dependencies
-      #   run: npm install -g commitlint@latest @commitlint/config-conventional semantic-release @semantic-release/git @semantic-release/commit-analyzer @semantic-release/release-notes-generator @google/semantic-release-replace-plugin @semantic-release/changelog conventional-changelog-conventionalcommits
-      # - if: ${{ inputs.dry-run }}
-      #   name: Release (dry-run)
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   run: npx semantic-release --dryRun
-      # - if: ${{ !inputs.dry-run }}
-      #   name: Release
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   run: npx semantic-release
+    outputs:
+      release_created: ${{ steps.release.outputs.new_release_published }}
+      tag_name: ${{ steps.release.outputs.new_release_version }}
+
+  publish:
+    needs: [ release ]
+    # runs-on: ubuntu-latest
+    if: ${{ needs.release.outputs.release_created }}
+    uses: mxenabled/path-tools/.github/workflows/publish.yml@master
+    with:
+      dry-run: ${{ inputs.dry-run }}
+    secrets:
+      OSSRH_USERNAME: ${{ secrets.OSSRH_USERNAME }}
+      OSSRH_TOKEN: ${{ secrets.OSSRH_TOKEN }}
+      GPG_SIGNING_KEY_BASE64: ${{ secrets.GPG_SIGNING_KEY_BASE64 }}
+      GPG_SIGNING_PASSPHRASE: ${{ secrets.GPG_SIGNING_PASSPHRASE }}
