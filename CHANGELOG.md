@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/mxenabled/path-tools-test/compare/1.1.4...1.1.5) (2023-06-01)
+
+
+### Bug Fixes
+
+* add dry-run ([69ba13b](https://github.com/mxenabled/path-tools-test/commit/69ba13b1a0662408695c3e1fe1e4817d38f21117))
+
 ## [1.1.4](https://github.com/mxenabled/path-tools-test/compare/1.1.3...1.1.4) (2023-06-01)
 
 
