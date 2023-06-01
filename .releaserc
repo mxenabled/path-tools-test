@@ -41,6 +41,7 @@
         "assets": ["./README.md", "CHANGELOG.md", "./build.gradle"],
         "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
       }
-    ]
+    ],
+    "@semantic-release/github"
   ]
 }
