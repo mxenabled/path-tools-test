@@ -7,12 +7,4 @@ pluginManagement {
   }
 }
 
-plugins {
-  id "com.mooltiverse.oss.nyx" version "2.3.0"
-}
-
 rootProject.name = "path-tools-test"
-
-nyx {
-  preset = "simple"
-}
