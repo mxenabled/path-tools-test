@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/mxenabled/path-tools-test/compare/v1.1.2...1.1.3) (2023-06-01)
+
+
+### Bug Fixes
+
+* adsf ([c7f3029](https://github.com/mxenabled/path-tools-test/commit/c7f30291980dee4d9d73c649496afd9b279addd3))
+* semantic-release ([a019b0d](https://github.com/mxenabled/path-tools-test/commit/a019b0ddf341f12adb38b36ccd7057c2a350269d))
+
 # Changelog
 
 ## [1.1.2](https://github.com/mxenabled/path-tools-test/compare/v1.1.1...v1.1.2) (2023-01-10)
