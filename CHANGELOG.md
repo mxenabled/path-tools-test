@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/mxenabled/path-tools-test/compare/1.1.9...1.1.10) (2023-06-01)
+
+
+### Bug Fixes
+
+* fix publish ([b2c961f](https://github.com/mxenabled/path-tools-test/commit/b2c961f0b7f5aa0961a3c3801b5a815b9881e3a9))
+
 ## [1.1.9](https://github.com/mxenabled/path-tools-test/compare/1.1.8...1.1.9) (2023-06-01)
 
 
