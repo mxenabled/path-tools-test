@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/mxenabled/path-tools-test/compare/1.1.5...1.1.6) (2023-06-01)
+
+
+### Bug Fixes
+
+* remove @semantic-release/gitlab install ([d59ae6f](https://github.com/mxenabled/path-tools-test/commit/d59ae6faab8cb6737696676e51a0f2abcbb39f74))
+
 ## [1.1.5](https://github.com/mxenabled/path-tools-test/compare/1.1.4...1.1.5) (2023-06-01)
 
 
