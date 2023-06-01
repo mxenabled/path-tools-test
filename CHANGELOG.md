@@ -1,3 +1,10 @@
+## [1.2.0-rc.1](https://github.com/mxenabled/path-tools-test/compare/1.1.10...1.2.0-rc.1) (2023-06-01)
+
+
+### Features
+
+* release candidtating this ([eb1656a](https://github.com/mxenabled/path-tools-test/commit/eb1656af776efdfe62dc2ac812dacd5d3efdf55c))
+
 ## [1.1.10](https://github.com/mxenabled/path-tools-test/compare/1.1.9...1.1.10) (2023-06-01)
 
 
