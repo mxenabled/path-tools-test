@@ -11,6 +11,8 @@ jobs:
   release:
     permissions: write-all
     uses: mxenabled/path-tools/.github/workflows/release_semantic.yml@master
+    with:
+      dry-run: true
     secrets:
       OSSRH_USERNAME: bob
       OSSRH_TOKEN: asdf
