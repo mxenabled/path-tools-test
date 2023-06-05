@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/mxenabled/path-tools-test/compare/1.2.2...1.2.3) (2023-06-05)
+
+
+### Bug Fixes
+
+* point to master release ([0c7808d](https://github.com/mxenabled/path-tools-test/commit/0c7808d33a04788d87e5c5fe80314495002eaada))
+
 ## [1.2.2](https://github.com/mxenabled/path-tools-test/compare/1.2.1...1.2.2) (2023-06-05)
 
 
