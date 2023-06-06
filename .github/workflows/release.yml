@@ -14,7 +14,7 @@ jobs:
     with:
       dry-run: false
     secrets:
-      SEMANTIC_TOKEN: ${{ secrets.SEMANTIC_TOKEN }}
+      SEMANTIC_TOKEN: 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
       OSSRH_USERNAME: bob
       OSSRH_TOKEN: asdf
       GPG_SIGNING_KEY_BASE64: afefdf
