@@ -2,14 +2,14 @@
 
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 
-Current Version: 1.2.7<!-- x-release-version -->
+Current Version: 1.2.8<!-- x-release-version -->
 
 ## Usage:
 
 _In build.gradle_
 
 ```groovy
-implementation "com.github.mxenabled:path-pipeline-test:1.2.7" // x-release-version
+implementation "com.github.mxenabled:path-pipeline-test:1.2.8" // x-release-version
 ```
 
 ## Releasing snapshot
