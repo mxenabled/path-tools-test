@@ -4,6 +4,16 @@
 ### Bug Fixes
 
 * add pul-request ([ab915bd](https://github.com/mxenabled/path-tools-test/commit/ab915bd41caa427cea4b8a04f6f56136dc520c75))
+* fake ([1866aad](https://github.com/mxenabled/path-tools-test/commit/1866aadba0078900515ebfbb58f9fb3426395716))
+* fake ([73de46d](https://github.com/mxenabled/path-tools-test/commit/73de46df414f2943e3de107e3d1bb7e6fe3fd140))
+* fake 4 ([feefed5](https://github.com/mxenabled/path-tools-test/commit/feefed579708e5cbf012e2776fc5f923af54cca5))
+
+## [1.2.7](https://github.com/mxenabled/path-tools-test/compare/1.2.6...1.2.7) (2023-06-06)
+
+
+### Bug Fixes
+
+* add pul-request ([ab915bd](https://github.com/mxenabled/path-tools-test/commit/ab915bd41caa427cea4b8a04f6f56136dc520c75))
 * fake ([73de46d](https://github.com/mxenabled/path-tools-test/commit/73de46df414f2943e3de107e3d1bb7e6fe3fd140))
 * fake 4 ([feefed5](https://github.com/mxenabled/path-tools-test/commit/feefed579708e5cbf012e2776fc5f923af54cca5))
 
