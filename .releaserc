@@ -3,7 +3,7 @@
     { name: "master" },
     { name: "rc", prerelease: "rc" }
   ],
-  "tagFormat": "${version}",
+  "tagFormat": "v${version}",
   "plugins": [
     [
       "@google/semantic-release-replace-plugin",
