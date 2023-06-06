@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/mxenabled/path-tools-test/compare/1.2.16...2.0.0) (2023-06-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* triggered
+
+### Build System
+
+* triggered ([10ed170](https://github.com/mxenabled/path-tools-test/commit/10ed1708d8a13dcb1bffbec14a57e4572f1c358d))
+
 ## [1.2.16](https://github.com/mxenabled/path-tools-test/compare/1.2.15...1.2.16) (2023-06-06)
 
 
