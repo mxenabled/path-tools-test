@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/mxenabled/path-tools-test/compare/1.2.3...1.2.4) (2023-06-06)
+
+
+### Bug Fixes
+
+* fake ([3d02ea7](https://github.com/mxenabled/path-tools-test/commit/3d02ea7146240ac3c0f1893c759a4e6c18a69bd7))
+
 ## [1.2.3](https://github.com/mxenabled/path-tools-test/compare/1.2.2...1.2.3) (2023-06-05)
 
 
