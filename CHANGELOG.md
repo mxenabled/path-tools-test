@@ -1,3 +1,45 @@
+## [1.2.0](https://github.com/mxenabled/path-tools-test/compare/v1.1.2...v1.2.0) (2023-06-06)
+
+
+### Features
+
+* release candidtating this ([eb1656a](https://github.com/mxenabled/path-tools-test/commit/eb1656af776efdfe62dc2ac812dacd5d3efdf55c))
+
+
+### Bug Fixes
+
+* add dry-run ([69ba13b](https://github.com/mxenabled/path-tools-test/commit/69ba13b1a0662408695c3e1fe1e4817d38f21117))
+* add pul-request ([ab915bd](https://github.com/mxenabled/path-tools-test/commit/ab915bd41caa427cea4b8a04f6f56136dc520c75))
+* adsf ([c7f3029](https://github.com/mxenabled/path-tools-test/commit/c7f30291980dee4d9d73c649496afd9b279addd3))
+* another ([9b81a3f](https://github.com/mxenabled/path-tools-test/commit/9b81a3fc4ec0b334c8f9812c817fd0c3d7e3d672))
+* another ([303c92f](https://github.com/mxenabled/path-tools-test/commit/303c92f96600f3177586323fb520e90d52113406))
+* another ([f112d06](https://github.com/mxenabled/path-tools-test/commit/f112d06c99c6c29c1c413249e3c54c3f7cf1a592))
+* another ([2e0ef01](https://github.com/mxenabled/path-tools-test/commit/2e0ef01db3f44014f85823af375c18f3a877be6c))
+* another ([749fbe5](https://github.com/mxenabled/path-tools-test/commit/749fbe5b44295cd83634f78e3a5b113c3f16764f))
+* another ([463fb95](https://github.com/mxenabled/path-tools-test/commit/463fb95788e6359b30ae09357e1cdce4f050e406))
+* another one ([28445e9](https://github.com/mxenabled/path-tools-test/commit/28445e9fbc01ae55812def040b6e3d08a0f8687f))
+* fake ([1866aad](https://github.com/mxenabled/path-tools-test/commit/1866aadba0078900515ebfbb58f9fb3426395716))
+* fake ([73de46d](https://github.com/mxenabled/path-tools-test/commit/73de46df414f2943e3de107e3d1bb7e6fe3fd140))
+* fake ([3d02ea7](https://github.com/mxenabled/path-tools-test/commit/3d02ea7146240ac3c0f1893c759a4e6c18a69bd7))
+* fake 2 ([961959c](https://github.com/mxenabled/path-tools-test/commit/961959c3ab5ca54e4318d22dd0c50ab218d837cb))
+* fake 3 ([f080a82](https://github.com/mxenabled/path-tools-test/commit/f080a82cc5d90b1d7e204ed52250b6a3fd55e0fd))
+* fake 4 ([feefed5](https://github.com/mxenabled/path-tools-test/commit/feefed579708e5cbf012e2776fc5f923af54cca5))
+* fix publish ([b2c961f](https://github.com/mxenabled/path-tools-test/commit/b2c961f0b7f5aa0961a3c3801b5a815b9881e3a9))
+* fix publish ([18d7d9a](https://github.com/mxenabled/path-tools-test/commit/18d7d9a515a3b07a9a5d3ef4850190e01a153904))
+* no dry run ([cdab446](https://github.com/mxenabled/path-tools-test/commit/cdab446cb162093ff97bcea8c03cb2bd356a639a))
+* point to master release ([0c7808d](https://github.com/mxenabled/path-tools-test/commit/0c7808d33a04788d87e5c5fe80314495002eaada))
+* re-add publish ([968c7d4](https://github.com/mxenabled/path-tools-test/commit/968c7d4b36a03927925b069f61022eaf8151eb9a))
+* remove @semantic-release/gitlab install ([d59ae6f](https://github.com/mxenabled/path-tools-test/commit/d59ae6faab8cb6737696676e51a0f2abcbb39f74))
+* semantic release ([73f8090](https://github.com/mxenabled/path-tools-test/commit/73f8090d8f54fd97a9c677ab86ca09645b3de838))
+* semantic release ([0d21f13](https://github.com/mxenabled/path-tools-test/commit/0d21f13d43f59489105d5f3f87dbd23009e7c54b))
+* semantic-release ([a019b0d](https://github.com/mxenabled/path-tools-test/commit/a019b0ddf341f12adb38b36ccd7057c2a350269d))
+* semantic-release github release ([ba1d1f0](https://github.com/mxenabled/path-tools-test/commit/ba1d1f0ecc78900aa87b3f3ad11380a1ab1e3e7a))
+* switch to path-tools recipes ([b72dd78](https://github.com/mxenabled/path-tools-test/commit/b72dd786380cf1193f83353e7a0cdd50edfbddf2))
+* switch to path-tools recipes ([396d673](https://github.com/mxenabled/path-tools-test/commit/396d673616663b6dfad4276666c3086d1ff1e734))
+* try semantic-release action ([5ed3d7b](https://github.com/mxenabled/path-tools-test/commit/5ed3d7b97341a8d7586c22f3af7b32738eefeacb))
+* try semantic-release action ([25b7b5d](https://github.com/mxenabled/path-tools-test/commit/25b7b5da3dca06be2b6ebae1833ae476d875b081))
+* trying it ([f343fa3](https://github.com/mxenabled/path-tools-test/commit/f343fa3a91b97cc7178b13fd1c53be6c7e2729b4))
+
 ## [1.2.14](https://github.com/mxenabled/path-tools-test/compare/1.2.13...1.2.14) (2023-06-06)
 
 
