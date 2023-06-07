@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/mxenabled/path-tools-test/compare/2.0.2...2.0.3) (2023-06-07)
+
+
+### Bug Fixes
+
+* correct clean up config ([1fcd8ee](https://github.com/mxenabled/path-tools-test/commit/1fcd8eea7c0a34a2f6c9677aa1ffc9cd6a37f5b2))
+
 ## [2.0.2](https://github.com/mxenabled/path-tools-test/compare/2.0.1...2.0.2) (2023-06-07)
 
 
