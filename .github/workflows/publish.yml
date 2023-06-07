@@ -12,7 +12,7 @@ name: publish
 jobs:
   publish:
     permissions: read-all
-    uses: mxenabled/path-tools/.github/workflows/publish.yml@master
+    uses: mxenabled/path-tools/.github/workflows/publish.yml@ts
     with:
       dry-run: ${{ inputs.dry-run }}
     secrets:
