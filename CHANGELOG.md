@@ -1,3 +1,10 @@
+## [2.1.0](https://github.com/mxenabled/path-tools-test/compare/2.0.3...2.1.0) (2023-06-07)
+
+
+### Features
+
+* triggered ([a3bfa00](https://github.com/mxenabled/path-tools-test/commit/a3bfa00a87677877b95f776ab5f8f169513978ee))
+
 ## [2.0.3](https://github.com/mxenabled/path-tools-test/compare/2.0.2...2.0.3) (2023-06-07)
 
 
