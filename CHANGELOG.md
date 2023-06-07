@@ -12,6 +12,13 @@
 
 * correct checkout ref after release is created ([a558cfa](https://github.com/mxenabled/path-tools-test/commit/a558cfa6a8343f2e6220911073d1e55da5d54431))
 
+## [2.0.1](https://github.com/mxenabled/path-tools-test/compare/2.0.0...2.0.1) (2023-06-07)
+
+
+### Bug Fixes
+
+* correct checkout ref after release is created ([a558cfa](https://github.com/mxenabled/path-tools-test/commit/a558cfa6a8343f2e6220911073d1e55da5d54431))
+
 ## [2.0.0](https://github.com/mxenabled/path-tools-test/compare/1.2.16...2.0.0) (2023-06-06)
 
 
